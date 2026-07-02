@@ -9,10 +9,10 @@ type ButtonProps = {
 
 const variants: Record<string, string> = {
   primary:
-    "rounded-full bg-primary px-7 py-2 text-sm font-semibold text-white transition hover:brightness-110",
+    "rounded-full bg-primary px-7 py-2 text-md font-semibold text-white transition hover:brightness-110",
   accent: "bg-secondary text-primary ",
   outline:
-    "rounded-full border border-primary px-6 py-2 text-sm font-medium text-primary transition hover:scale-102",
+    "rounded-full border border-primary px-6 py-2 text-sm font-medium text-primary transition hover:scale-102 font-semibold",
 };
 
 export const Button = ({

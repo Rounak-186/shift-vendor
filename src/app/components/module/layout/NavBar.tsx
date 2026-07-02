@@ -32,7 +32,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className={`text-sm transition ${
+              className={`text-lg transition ${
                 index === 0
                   ? "border-b-2 border-orange-500 pb-1 font-semibold"
                   : "text-gray-700 hover:text-orange-500"

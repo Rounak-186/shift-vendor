@@ -13,8 +13,8 @@ export const PreferenceSection = () => {
         </div>
         {/* bottom-left card */}
         <div className="flex items-center gap-5 absolute bottom-0 -left-120 right-70 w-fit">
-          <div className="p-4 bg-white rounded-md space-y-2">
-            <p className="text-primary text-xl">SUPLIERS</p>
+          <div className="p-4 bg-white rounded-md space-y-2 shadow-sm">
+            <p className="text-primary text-xl font-semibold">SUPLIERS</p>
             <p className="text-gray-400 w-fit">
               “All service provided is so perfect and fast, and im so happy to
               order from this company”
@@ -43,7 +43,7 @@ export const PreferenceSection = () => {
 
 const CircularImage = ({ img }: { img: string }) => {
   return (
-    <div className="rounded-full overflow-hidden w-40 h-40">
+    <div className="rounded-full overflow-hidden w-40 h-40 shadow-[0px_0px_30px_rgba(0,0,0,0.2)]">
       <img src={img} alt="" className=" h-full w-full object-cover" />
     </div>
   );
